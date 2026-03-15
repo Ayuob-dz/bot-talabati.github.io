@@ -1,3 +1,6 @@
+# السماح لجميع محركات البحث بفهرسة الموقع
 User-agent: *
 Allow: /
+
+# رابط ملف Sitemap لتسريع الزحف
 Sitemap: https://ayuob-dz.github.io/bot-talabati.github.io/sitemap.xml
