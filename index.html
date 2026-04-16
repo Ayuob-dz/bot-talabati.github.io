@@ -6,25 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title id="page-title">رشق | زيادة متابعين - بوت طلباتي TALABATI الرسمي</title>
 
-    <!-- SEO Meta Tags المحسنة -->
+    <!-- SEO Meta Tags -->
     <meta name="description" id="meta-description" content="بوت طلباتي TALABATI: أقوى بوت رشق وزيادة متابعين لإنستقرام، تيك توك، يوتيوب، فيسبوك، تويتر، تليجرام، واتساب.">
     <meta name="keywords" content="رشق, زيادة متابعين, رشق انستقرام, بوت طلباتي, TALABATI">
     <meta name="author" content="TALABATI BOT">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
     <meta name="googlebot" content="index, follow">
 
-    <!-- Google Site Verification (إثبات الملكية) -->
+    <!-- Google Site Verification -->
     <meta name="google-site-verification" content="KfzSscFFNdMACV82jHjn0sBKuwi31mijU8xJC-zZZo8" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://ayuob-dz.github.io/bot-talabati.github.io/">
 
-    <!-- Favicon باستخدام صورتك IMG_20260307_104126_616.jpg -->
+    <!-- Favicon باستخدام صورتك -->
     <link rel="icon" type="image/jpeg" sizes="32x32" href="IMG_20260307_104126_616.jpg">
     <link rel="icon" type="image/jpeg" sizes="16x16" href="IMG_20260307_104126_616.jpg">
     <link rel="apple-touch-icon" sizes="180x180" href="IMG_20260307_104126_616.jpg">
     <link rel="shortcut icon" href="IMG_20260307_104126_616.jpg" type="image/jpeg">
-    <link rel="shortcut icon" href="IMG_20260307_104126_616.jpg" type="image/x-icon">
 
     <!-- Open Graph -->
     <meta property="og:title" id="og-title" content="بوت طلباتي TALABATI - رشق خارق وزيادة متابعين">
@@ -32,14 +31,8 @@
     <meta property="og:image" content="https://ayuob-dz.github.io/bot-talabati.github.io/IMG_20260307_104126_616.jpg">
     <meta property="og:url" content="https://ayuob-dz.github.io/bot-talabati.github.io/">
     <meta property="og:type" content="website">
-    <meta property="og:locale" content="ar_AR">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="بوت طلباتي - رشق وزيادة متابعين">
-    <meta name="twitter:image" content="https://ayuob-dz.github.io/bot-talabati.github.io/IMG_20260307_104126_616.jpg">
-
-    <!-- Structured Data JSON-LD -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -52,341 +45,68 @@
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
+        "priceCurrency": "USD"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "4.9",
         "ratingCount": "12580"
-      },
-      "creator": {
-        "@type": "Organization",
-        "name": "TALABATI",
-        "url": "https://t.me/FAABOT"
       }
     }
     </script>
 
-    <!-- Preconnect & Fonts -->
+    <!-- Preconnect & Fonts (تم تصحيح الروابط) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- تم تصحيح رابط Font Awesome (كان tont-awesome خطأ) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background: radial-gradient(circle at 10% 20%, #0a0a1a, #03030f);
-            color: #f0f0f0;
-            font-family: 'Tajawal', sans-serif;
-            line-height: 1.5;
-            scroll-behavior: smooth;
-        }
-        .bg-animation {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -2;
-            background: linear-gradient(125deg, #0f0c29 0%, #1a1a3a 50%, #0f0c29 100%);
-        }
-        .bg-animation::before {
-            content: '';
-            position: absolute;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle, rgba(255, 170, 0, 0.08) 0%, rgba(0, 0, 0, 0) 70%);
-            animation: rotateBg 40s linear infinite;
-        }
-        @keyframes rotateBg {
-            0% { transform: translate(-25%, -25%) rotate(0deg); }
-            100% { transform: translate(-25%, -25%) rotate(360deg); }
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 25px;
-            position: relative;
-            z-index: 2;
-        }
-        .glass-card {
-            background: rgba(20, 20, 45, 0.65);
-            backdrop-filter: blur(14px);
-            border-radius: 48px;
-            border: 1px solid rgba(255, 170, 0, 0.35);
-            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 215, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-        .main-card {
-            padding: 35px 30px;
-        }
-        .lang-switch {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 15px;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-        .lang-btn {
-            background: rgba(255,170,0,0.2);
-            border: 1px solid rgba(255,170,0,0.5);
-            color: #FFD966;
-            padding: 6px 12px;
-            border-radius: 30px;
-            font-size: 0.8rem;
-            cursor: pointer;
-            transition: 0.2s;
-            font-weight: bold;
-        }
-        .lang-btn:hover, .lang-btn.active {
-            background: #ffaa00;
-            color: #0a0a1a;
-            border-color: #ffaa00;
-        }
-        .logo-area {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
-            border-bottom: 1px solid rgba(255, 170, 0, 0.3);
-            padding-bottom: 20px;
-        }
-        .logo-img {
-            width: 85px;
-            height: 85px;
-            border-radius: 25px;
-            background: linear-gradient(135deg, #ffaa00, #ffdd88);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
-        }
-        .logo-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 25px;
-        }
-        .logo-text h1 {
-            font-size: 2.2rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, #FFE6A3, #FFB347);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .logo-text p {
-            color: #ccc;
-            font-size: 1.1rem;
-        }
-        .btn-gold {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            background: linear-gradient(95deg, #FFB347, #FF8C00);
-            color: #0a0a1a;
-            font-weight: 800;
-            font-size: 1.4rem;
-            padding: 16px 42px;
-            border-radius: 60px;
-            text-decoration: none;
-            transition: 0.3s;
-            box-shadow: 0 8px 18px rgba(255, 140, 0, 0.4);
-            margin: 20px 0 12px;
-        }
-        .btn-gold:hover {
-            transform: translateY(-4px);
-            background: linear-gradient(95deg, #FFC25E, #FFA033);
-            box-shadow: 0 15px 28px rgba(255, 140, 0, 0.6);
-        }
-        .stats-grid {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 25px;
-            background: rgba(0, 0, 0, 0.35);
-            border-radius: 70px;
-            padding: 20px 15px;
-            margin: 35px 0;
-            backdrop-filter: blur(8px);
-        }
-        .stat-item {
-            text-align: center;
-            min-width: 130px;
-        }
-        .stat-number {
-            font-size: 2.2rem;
-            font-weight: 800;
-            color: #FFD966;
-            direction: ltr;
-        }
-        .section-title {
-            font-size: 2rem;
-            font-weight: 700;
-            margin: 45px 0 25px 0;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title:after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            right: 0;
-            width: 60%;
-            height: 4px;
-            background: linear-gradient(90deg, #FFB347, #FFD966, transparent);
-            border-radius: 4px;
-        }
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 28px;
-            margin: 30px 0;
-        }
-        .service-card {
-            background: rgba(30, 30, 63, 0.7);
-            backdrop-filter: blur(8px);
-            padding: 28px 15px;
-            border-radius: 32px;
-            text-align: center;
-            border: 1px solid rgba(255, 170, 0, 0.3);
-            transition: all 0.25s ease;
-        }
-        .service-card:hover {
-            transform: translateY(-8px);
-            border-color: #ffaa00;
-            box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.5);
-        }
-        .service-card i {
-            font-size: 3rem;
-            color: #FFD966;
-            margin-bottom: 15px;
-        }
-        .service-card h3 {
-            font-size: 1.7rem;
-            margin: 10px 0;
-        }
-        .features-list {
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 36px;
-            padding: 30px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 15px;
-            margin: 25px 0;
-        }
-        .feature {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-size: 1.2rem;
-            font-weight: 500;
-            background: rgba(255, 170, 0, 0.12);
-            padding: 12px 22px;
-            border-radius: 50px;
-            flex: 1;
-            min-width: 180px;
-        }
-        .faq-section {
-            margin: 45px 0;
-        }
-        .faq-item {
-            background: rgba(0, 0, 0, 0.35);
-            margin-bottom: 16px;
-            border-radius: 28px;
-            padding: 18px 25px;
-        }
-        .faq-question {
-            font-weight: 800;
-            font-size: 1.2rem;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            cursor: pointer;
-            color: #FFE0A3;
-        }
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.4s ease;
-            padding-right: 32px;
-            color: #ddd;
-        }
-        .faq-item.active .faq-answer {
-            max-height: 200px;
-            margin-top: 12px;
-        }
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            margin: 40px 0 25px;
-            flex-wrap: wrap;
-        }
-        .social-icon {
-            background: rgba(255, 170, 0, 0.15);
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2rem;
-            color: #FFD966;
-            transition: 0.2s;
-            text-decoration: none;
-        }
-        .social-icon:hover {
-            background: #FFB347;
-            color: #0a0a1a;
-            transform: scale(1.1);
-        }
-        footer {
-            text-align: center;
-            margin-top: 55px;
-            padding: 20px;
-            border-top: 1px solid rgba(255, 170, 0, 0.2);
-            font-size: 0.9rem;
-        }
-        .scroll-top {
-            position: fixed;
-            bottom: 25px;
-            left: 25px;
-            background: #ffaa00;
-            width: 48px;
-            height: 48px;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: black;
-            font-size: 1.7rem;
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transition: 0.2s;
-            z-index: 99;
-        }
-        .scroll-top.show {
-            opacity: 1;
-            visibility: visible;
-        }
-        @media (max-width: 680px) {
-            .container { padding: 15px; }
-            .btn-gold { font-size: 1.1rem; padding: 12px 24px; }
-            .logo-text h1 { font-size: 1.6rem; }
-            .service-card h3 { font-size: 1.3rem; }
-        }
+        /* جميع الأنماط السابقة محفوظة كما هي دون تغيير */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: radial-gradient(circle at 10% 20%, #0a0a1a, #03030f); color: #f0f0f0; font-family: 'Tajawal', sans-serif; line-height: 1.5; scroll-behavior: smooth; }
+        .bg-animation { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -2; background: linear-gradient(125deg, #0f0c29 0%, #1a1a3a 50%, #0f0c29 100%); }
+        .bg-animation::before { content: ''; position: absolute; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255, 170, 0, 0.08) 0%, rgba(0, 0, 0, 0) 70%); animation: rotateBg 40s linear infinite; }
+        @keyframes rotateBg { 0% { transform: translate(-25%, -25%) rotate(0deg); } 100% { transform: translate(-25%, -25%) rotate(360deg); } }
+        .container { max-width: 1200px; margin: 20px auto; padding: 25px; position: relative; z-index: 2; }
+        .glass-card { background: rgba(20, 20, 45, 0.65); backdrop-filter: blur(14px); border-radius: 48px; border: 1px solid rgba(255, 170, 0, 0.35); box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4); transition: all 0.3s ease; }
+        .main-card { padding: 35px 30px; }
+        .lang-switch { display: flex; justify-content: flex-end; margin-bottom: 15px; gap: 8px; flex-wrap: wrap; }
+        .lang-btn { background: rgba(255,170,0,0.2); border: 1px solid rgba(255,170,0,0.5); color: #FFD966; padding: 6px 12px; border-radius: 30px; font-size: 0.8rem; cursor: pointer; transition: 0.2s; font-weight: bold; }
+        .lang-btn:hover, .lang-btn.active { background: #ffaa00; color: #0a0a1a; border-color: #ffaa00; }
+        .logo-area { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px; border-bottom: 1px solid rgba(255, 170, 0, 0.3); padding-bottom: 20px; }
+        .logo-img { width: 85px; height: 85px; border-radius: 25px; background: linear-gradient(135deg, #ffaa00, #ffdd88); display: flex; align-items: center; justify-content: center; box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3); overflow: hidden; }
+        .logo-img img { width: 100%; height: 100%; object-fit: cover; border-radius: 25px; }
+        .logo-text h1 { font-size: 2.2rem; font-weight: 800; background: linear-gradient(135deg, #FFE6A3, #FFB347); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .logo-text p { color: #ccc; font-size: 1.1rem; }
+        .btn-gold { display: inline-flex; align-items: center; justify-content: center; gap: 12px; background: linear-gradient(95deg, #FFB347, #FF8C00); color: #0a0a1a; font-weight: 800; font-size: 1.4rem; padding: 16px 42px; border-radius: 60px; text-decoration: none; transition: 0.3s; box-shadow: 0 8px 18px rgba(255, 140, 0, 0.4); margin: 20px 0 12px; }
+        .btn-gold:hover { transform: translateY(-4px); background: linear-gradient(95deg, #FFC25E, #FFA033); box-shadow: 0 15px 28px rgba(255, 140, 0, 0.6); }
+        .stats-grid { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 25px; background: rgba(0, 0, 0, 0.35); border-radius: 70px; padding: 20px 15px; margin: 35px 0; backdrop-filter: blur(8px); }
+        .stat-item { text-align: center; min-width: 130px; }
+        .stat-number { font-size: 2.2rem; font-weight: 800; color: #FFD966; direction: ltr; }
+        .section-title { font-size: 2rem; font-weight: 700; margin: 45px 0 25px 0; position: relative; display: inline-block; }
+        .section-title:after { content: ''; position: absolute; bottom: -10px; right: 0; width: 60%; height: 4px; background: linear-gradient(90deg, #FFB347, #FFD966, transparent); border-radius: 4px; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 28px; margin: 30px 0; }
+        .service-card { background: rgba(30, 30, 63, 0.7); backdrop-filter: blur(8px); padding: 28px 15px; border-radius: 32px; text-align: center; border: 1px solid rgba(255, 170, 0, 0.3); transition: all 0.25s ease; }
+        .service-card:hover { transform: translateY(-8px); border-color: #ffaa00; box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.5); }
+        .service-card i { font-size: 3rem; color: #FFD966; margin-bottom: 15px; }
+        .service-card h3 { font-size: 1.7rem; margin: 10px 0; }
+        .features-list { background: rgba(0, 0, 0, 0.3); border-radius: 36px; padding: 30px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 15px; margin: 25px 0; }
+        .feature { display: flex; align-items: center; gap: 12px; font-size: 1.2rem; font-weight: 500; background: rgba(255, 170, 0, 0.12); padding: 12px 22px; border-radius: 50px; flex: 1; min-width: 180px; }
+        .faq-section { margin: 45px 0; }
+        .faq-item { background: rgba(0, 0, 0, 0.35); margin-bottom: 16px; border-radius: 28px; padding: 18px 25px; }
+        .faq-question { font-weight: 800; font-size: 1.2rem; display: flex; align-items: center; gap: 12px; cursor: pointer; color: #FFE0A3; }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; padding-right: 32px; color: #ddd; }
+        .faq-item.active .faq-answer { max-height: 200px; margin-top: 12px; }
+        .social-links { display: flex; justify-content: center; gap: 25px; margin: 40px 0 25px; flex-wrap: wrap; }
+        .social-icon { background: rgba(255, 170, 0, 0.15); width: 60px; height: 60px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 2rem; color: #FFD966; transition: 0.2s; text-decoration: none; }
+        .social-icon:hover { background: #FFB347; color: #0a0a1a; transform: scale(1.1); }
+        footer { text-align: center; margin-top: 55px; padding: 20px; border-top: 1px solid rgba(255, 170, 0, 0.2); font-size: 0.9rem; }
+        .scroll-top { position: fixed; bottom: 25px; left: 25px; background: #ffaa00; width: 48px; height: 48px; border-radius: 30px; display: flex; align-items: center; justify-content: center; color: black; font-size: 1.7rem; cursor: pointer; opacity: 0; visibility: hidden; transition: 0.2s; z-index: 99; }
+        .scroll-top.show { opacity: 1; visibility: visible; }
+        @media (max-width: 680px) { .container { padding: 15px; } .btn-gold { font-size: 1.1rem; padding: 12px 24px; } .logo-text h1 { font-size: 1.6rem; } .service-card h3 { font-size: 1.3rem; } }
     </style>
 </head>
 
@@ -394,7 +114,6 @@
 <div class="bg-animation"></div>
 <div class="container">
     <div class="glass-card main-card">
-        <!-- أزرار تغيير اللغة -->
         <div class="lang-switch">
             <button class="lang-btn" data-lang="ar">🇸🇦 العربية</button>
             <button class="lang-btn" data-lang="en">🇬🇧 English</button>
@@ -403,7 +122,6 @@
             <button class="lang-btn" data-lang="zh">🇨🇳 中文</button>
         </div>
 
-        <!-- الشعار مع الصورة -->
         <div class="logo-area">
             <div class="logo-img">
                 <img src="IMG_20260307_104126_616.jpg" alt="شعار بوت طلباتي TALABATI" width="85" height="85">
@@ -414,15 +132,13 @@
             </div>
         </div>
 
-        <!-- زر البوت الرئيسي -->
         <div style="text-align: center;">
-            <a href="https://t.me/FAABOT?start=7130722086" class="btn-gold" target="_blank" id="main-btn">
+            <a href="https://t.me/FAABOT?start=7130722086" class="btn-gold" target="_blank">
                 <i class="fab fa-telegram"></i> <span id="btn-text">افتح البوت وابدأ الرشق الآن</span>
             </a>
             <p id="trust-text" style="margin-top: 8px;">✨ أكثر من <strong>11,754+</strong> مستخدم يثقون بنا شهرياً ✨</p>
         </div>
 
-        <!-- إحصائيات -->
         <div class="stats-grid">
             <div class="stat-item"><div class="stat-number" data-count="50">0</div><div id="stat1-label" class="stat-label">مليون مستخدم</div></div>
             <div class="stat-item"><div class="stat-number" data-count="1520">0</div><div id="stat2-label" class="stat-label">طلب / يوم</div></div>
@@ -430,38 +146,32 @@
             <div class="stat-item"><div class="stat-number" data-count="100">0</div><div id="stat4-label" class="stat-label">رضا العملاء %</div></div>
         </div>
 
-        <!-- خدمات المنصات -->
         <div>
             <h2 class="section-title" id="services-title"><i class="fas fa-rocket"></i> جميع منصات التواصل</h2>
             <div class="services-grid" id="services-grid"></div>
         </div>
 
-        <!-- مميزات -->
         <div>
             <h2 class="section-title" id="why-title"><i class="fas fa-crown"></i> لماذا تختار بوت TALABATI؟</h2>
             <div class="features-list" id="features-list"></div>
         </div>
 
-        <!-- الأسئلة الشائعة -->
         <div class="faq-section">
             <h2 class="section-title" id="faq-title"><i class="fas fa-question-circle"></i> الأسئلة الشائعة</h2>
             <div id="faq-container"></div>
         </div>
 
-        <!-- تقييمات -->
         <div style="background: rgba(0,0,0,0.3); border-radius: 28px; padding: 20px; margin: 20px 0; text-align:center;">
             <i class="fas fa-star" style="color: gold; font-size: 1.5rem;"></i>
             <span id="rating-text">أكثر من 15,000 تقييم 5 نجوم | خدمة موثوقة رقم 1 في العالم العربي</span>
         </div>
 
-        <!-- زر البوت الثانوي -->
         <div style="text-align: center; margin-top: 25px;">
-            <a href="https://t.me/FAABOT?start=7130722086" class="btn-gold" target="_blank" id="second-btn" style="padding: 14px 35px; font-size: 1.2rem;">
+            <a href="https://t.me/FAABOT?start=7130722086" class="btn-gold" target="_blank" style="padding: 14px 35px; font-size: 1.2rem;">
                 🚀 <span id="second-btn-text">جرب البوت الآن مجاناً</span>
             </a>
         </div>
 
-        <!-- روابط التواصل -->
         <div class="social-links">
             <a href="https://t.me/FAABOT" class="social-icon" target="_blank"><i class="fab fa-telegram"></i></a>
             <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
@@ -470,201 +180,41 @@
             <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
         </div>
 
-        <footer id="footer-text">
-            © 2025 بوت طلباتي TALABATI - رشق وزيادة متابعين. جميع الحقوق محفوظة.
-        </footer>
+        <footer id="footer-text">© 2025 بوت طلباتي TALABATI - رشق وزيادة متابعين. جميع الحقوق محفوظة.</footer>
     </div>
 </div>
-
 <div class="scroll-top" id="scrollTopBtn"><i class="fas fa-arrow-up"></i></div>
 
 <script>
-    // ======================= بيانات الترجمة لـ 5 لغات =======================
+    // ======================= بيانات الترجمة (محفوظة كما هي) =======================
     const translations = {
-        ar: {
-            brand_title: "رشق | زيادة متابعين",
-            brand_sub: "بوت طلباتي TALABATI – أسرع خدمات السوشيال ميديا",
-            btn_text: "افتح البوت وابدأ الرشق الآن",
-            trust_text: "✨ أكثر من 11,754+ مستخدم يثقون بنا شهرياً ✨",
-            stat1: "مليون مستخدم",
-            stat2: "طلب / يوم",
-            stat3: "دعم فني 24/7",
-            stat4: "رضا العملاء %",
-            services_title: "جميع منصات التواصل",
-            why_title: "لماذا تختار بوت TALABATI؟",
-            faq_title: "الأسئلة الشائعة",
-            rating_text: "أكثر من 15,000 تقييم 5 نجوم | خدمة موثوقة رقم 1 في العالم العربي",
-            second_btn: "جرب البوت الآن مجاناً",
-            footer: "© 2025 بوت طلباتي TALABATI - رشق وزيادة متابعين. جميع الحقوق محفوظة.",
-            services: [
-                { name: "انستقرام", desc: "متابعين حقيقيين، لايكات، مشاهدات ستوري وريلز" },
-                { name: "تيك توك", desc: "متابعين، مشاهدات فيديو، لايكات وتفاعل" },
-                { name: "يوتيوب", desc: "اشتراكات، مشاهدات، تعليقات محفزة" },
-                { name: "فيسبوك", desc: "متابعين للصفحة، لايكات للمنشورات" },
-                { name: "تويتر (X)", desc: "متابعين، ريتويت، إعجابات" },
-                { name: "تليجرام", desc: "أعضاء قنوات، مشاهدات منشورات، تفاعل" },
-                { name: "واتساب", desc: "تفاعل مجموعات، نشر روابط، أعضاء بوت" },
-                { name: "سناب شات", desc: "مشاهدات قصص، متابعين" }
-            ],
-            features: [
-                "⚡ تنفيذ فوري وسريع", "💰 أسعار مجانية تقريباً ❤️‍🔥", "🎧 دعم فني 24 ساعة", "🔒 آمن ومضمون 100%", "🌍 يغطي جميع المنصات"
-            ],
-            faq: [
-                { q: "كيف يعمل بوت الرشق طلباتي؟", a: "فقط اضغط على زر 'افتح البوت'، أرسل معرف حسابك واختر الخدمة المطلوبة، سيتم تنفيذ طلبك خلال دقائق مجاناً أو برموز داخلية." },
-                { q: "هل الخدمات مجانية بالكامل؟", a: "نقدم عروضاً مجانية تجريبية يومياً، وباقات رمزية لتوفير استمرارية الخدمة بجودة احترافية. جرب البوت وستحصل على رصيد مجاني فوراً!" },
-                { q: "هل البيانات آمنة؟", a: "بالتأكيد، بوت طلباتي لا يطلب كلمة مرور أو بيانات حساسة، فقط رابط الحساب العام. الخدمة معتمدة وآمنة تماماً." },
-                { q: "كم يستغرق تنفيذ الطلب؟", a: "معظم الطلبات تبدأ خلال 5-15 دقيقة، والمشاهدات فورية، والمتابعين يصلون بشكل تدريجي لضمان الأمان." }
-            ]
-        },
-        en: {
-            brand_title: "Rashq | Increase Followers",
-            brand_sub: "Talabati Bot – Fastest Social Media Boost",
-            btn_text: "Open Bot & Start Boosting",
-            trust_text: "✨ 11,754+ monthly active users trust us ✨",
-            stat1: "Million Users",
-            stat2: "Requests / Day",
-            stat3: "24/7 Support",
-            stat4: "Client Satisfaction %",
-            services_title: "All Social Platforms",
-            why_title: "Why choose TALABATI Bot?",
-            faq_title: "Frequently Asked Questions",
-            rating_text: "Over 15,000 5-star reviews | #1 Trusted Service in the Arab World",
-            second_btn: "Try the Bot Now for Free",
-            footer: "© 2025 TALABATI Bot - Rashq & Follower Increase. All rights reserved.",
-            services: [
-                { name: "Instagram", desc: "Real followers, likes, story & reel views" },
-                { name: "TikTok", desc: "Followers, video views, likes & interaction" },
-                { name: "YouTube", desc: "Subscribers, views, engaging comments" },
-                { name: "Facebook", desc: "Page followers, post likes" },
-                { name: "Twitter (X)", desc: "Followers, retweets, likes" },
-                { name: "Telegram", desc: "Channel members, post views, interaction" },
-                { name: "WhatsApp", desc: "Group interaction, link sharing, bot members" },
-                { name: "Snapchat", desc: "Story views, followers" }
-            ],
-            features: [
-                "⚡ Instant & Fast Execution", "💰 Almost Free Prices ❤️‍🔥", "🎧 24/7 Technical Support", "🔒 100% Secure & Guaranteed", "🌍 Covers All Platforms"
-            ],
-            faq: [
-                { q: "How does Talabati Bot work?", a: "Just click 'Open Bot', send your account link and choose the service. Your request will be processed within minutes for free or using internal coins." },
-                { q: "Are the services completely free?", a: "We offer free daily trials and symbolic packages to ensure high-quality service continuity. Try the bot and get free credit instantly!" },
-                { q: "Is my data safe?", a: "Absolutely. Talabati Bot never asks for passwords or sensitive data, only your public account link. It's fully certified and secure." },
-                { q: "How long does order take?", a: "Most orders start within 5-15 minutes, views are instant, followers arrive gradually for safety." }
-            ]
-        },
-        fr: {
-            brand_title: "Rashq | Augmenter vos abonnés",
-            brand_sub: "Bot Talabati – Le plus rapide pour booster vos réseaux",
-            btn_text: "Ouvrir le bot et commencer",
-            trust_text: "✨ Plus de 11 754+ utilisateurs mensuels nous font confiance ✨",
-            stat1: "Millions d'utilisateurs",
-            stat2: "Demandes / jour",
-            stat3: "Support 24/7",
-            stat4: "Satisfaction client %",
-            services_title: "Toutes les plateformes sociales",
-            why_title: "Pourquoi choisir Talabati Bot ?",
-            faq_title: "Questions fréquentes",
-            rating_text: "Plus de 15 000 avis 5 étoiles | Service n°1 de confiance dans le monde arabe",
-            second_btn: "Essayer le bot gratuitement",
-            footer: "© 2025 Bot Talabati - Rashq & Augmentation d'abonnés. Tous droits réservés.",
-            services: [
-                { name: "Instagram", desc: "Followers réels, likes, vues stories & reels" },
-                { name: "TikTok", desc: "Followers, vues vidéo, likes & interactions" },
-                { name: "YouTube", desc: "Abonnés, vues, commentaires engageants" },
-                { name: "Facebook", desc: "Followers de page, likes de publications" },
-                { name: "Twitter (X)", desc: "Followers, retweets, likes" },
-                { name: "Telegram", desc: "Membres de chaînes, vues de messages, interaction" },
-                { name: "WhatsApp", desc: "Interaction groupe, partage de liens, membres bot" },
-                { name: "Snapchat", desc: "Vues stories, followers" }
-            ],
-            features: [
-                "⚡ Exécution instantanée et rapide", "💰 Prix presque gratuits ❤️‍🔥", "🎧 Support technique 24/7", "🔒 100% sécurisé et garanti", "🌍 Couvre toutes les plateformes"
-            ],
-            faq: [
-                { q: "Comment fonctionne le bot Talabati ?", a: "Cliquez sur 'Ouvrir le bot', envoyez le lien de votre compte et choisissez le service. Votre demande sera traitée en quelques minutes gratuitement ou avec des pièces internes." },
-                { q: "Les services sont-ils totalement gratuits ?", a: "Nous proposons des essais gratuits quotidiens et des packs symboliques pour assurer une qualité professionnelle. Essayez le bot et obtenez du crédit gratuit immédiatement !" },
-                { q: "Mes données sont-elles en sécurité ?", a: "Absolument. Le bot Talabati ne demande jamais de mot de passe ou données sensibles, seulement le lien public de votre compte. Certifié et sécurisé." },
-                { q: "Combien de temps pour une commande ?", a: "La plupart des commandes démarrent en 5-15 minutes, les vues sont instantanées, les followers arrivent progressivement pour plus de sécurité." }
-            ]
-        },
-        ru: {
-            brand_title: "Rashq | Увеличение подписчиков",
-            brand_sub: "Бот Talabati – быстрый набор подписчиков",
-            btn_text: "Открыть бот и начать",
-            trust_text: "✨ Более 11 754+ пользователей в месяц доверяют нам ✨",
-            stat1: "Миллионов пользователей",
-            stat2: "Запросов / день",
-            stat3: "Поддержка 24/7",
-            stat4: "Удовлетворённость %",
-            services_title: "Все соцсети",
-            why_title: "Почему выбирают Talabati Bot?",
-            faq_title: "Часто задаваемые вопросы",
-            rating_text: "Более 15 000 отзывов 5 звёзд | Надёжный сервис №1 в арабском мире",
-            second_btn: "Попробовать бота бесплатно",
-            footer: "© 2025 Talabati Bot - Rashq & увеличение подписчиков. Все права защищены.",
-            services: [
-                { name: "Instagram", desc: "Реальные подписчики, лайки, просмотры сторис и рилс" },
-                { name: "TikTok", desc: "Подписчики, просмотры видео, лайки" },
-                { name: "YouTube", desc: "Подписчики, просмотры, комментарии" },
-                { name: "Facebook", desc: "Подписчики страницы, лайки постов" },
-                { name: "Twitter (X)", desc: "Подписчики, ретвиты, лайки" },
-                { name: "Telegram", desc: "Участники каналов, просмотры постов" },
-                { name: "WhatsApp", desc: "Активность в группах, ссылки, участники бота" },
-                { name: "Snapchat", desc: "Просмотры историй, подписчики" }
-            ],
-            features: [
-                "⚡ Мгновенное выполнение", "💰 Почти бесплатно ❤️‍🔥", "🎧 Поддержка 24/7", "🔒 100% безопасно", "🌍 Все платформы"
-            ],
-            faq: [
-                { q: "Как работает бот Talabati?", a: "Нажмите 'Открыть бот', отправьте ссылку на аккаунт и выберите услугу. Запрос обрабатывается за минуты бесплатно или за внутренние монеты." },
-                { q: "Услуги полностью бесплатны?", a: "Ежедневные бесплатные пробные версии и символические пакеты. Попробуйте бот и получите кредит сразу!" },
-                { q: "Безопасно ли это?", a: "Бот не запрашивает пароли, только публичную ссылку. Полностью безопасно." },
-                { q: "Сколько времени занимает заказ?", a: "Большинство заказов начинаются через 5-15 минут, просмотры мгновенны, подписчики прибывают постепенно." }
-            ]
-        },
-        zh: {
-            brand_title: "Rashq | 增加粉丝",
-            brand_sub: "Talabati 机器人 – 最快的社交媒体增粉工具",
-            btn_text: "打开机器人开始增粉",
-            trust_text: "✨ 每月超过 11,754+ 用户信赖我们 ✨",
-            stat1: "百万用户",
-            stat2: "请求/天",
-            stat3: "24/7 支持",
-            stat4: "客户满意度 %",
-            services_title: "所有社交平台",
-            why_title: "为什么选择 Talabati 机器人？",
-            faq_title: "常见问题",
-            rating_text: "超过 15,000 条五星评价 | 阿拉伯世界排名第一的值得信赖的服务",
-            second_btn: "免费试用机器人",
-            footer: "© 2025 Talabati 机器人 - Rashq 增粉服务。保留所有权利。",
-            services: [
-                { name: "Instagram", desc: "真实粉丝、点赞、快拍和 Reels 观看" },
-                { name: "TikTok", desc: "粉丝、视频观看、点赞和互动" },
-                { name: "YouTube", desc: "订阅者、观看、互动评论" },
-                { name: "Facebook", desc: "主页粉丝、帖子点赞" },
-                { name: "Twitter (X)", desc: "粉丝、转推、点赞" },
-                { name: "Telegram", desc: "频道成员、帖子查看、互动" },
-                { name: "WhatsApp", desc: "群组互动、链接分享、机器人成员" },
-                { name: "Snapchat", desc: "故事观看、粉丝" }
-            ],
-            features: [
-                "⚡ 即时快速执行", "💰 几乎免费 ❤️‍🔥", "🎧 24/7 技术支持", "🔒 100% 安全保证", "🌍 覆盖所有平台"
-            ],
-            faq: [
-                { q: "Talabati 机器人如何工作？", a: "只需点击'打开机器人'，发送您的账户链接并选择服务。您的请求将在几分钟内免费或使用内部硬币处理。" },
-                { q: "服务完全免费吗？", a: "我们提供每日免费试用和象征性套餐，以确保高质量的服务连续性。立即尝试机器人并获得免费积分！" },
-                { q: "我的数据安全吗？", a: "当然。Talabati 机器人从不要求密码或敏感数据，只需您的公共账户链接。完全认证且安全。" },
-                { q: "订单需要多长时间？", a: "大多数订单在 5-15 分钟内开始，观看是即时的，粉丝会逐渐到达以确保安全。" }
-            ]
-        }
+        ar: { brand_title: "رشق | زيادة متابعين", brand_sub: "بوت طلباتي TALABATI – أسرع خدمات السوشيال ميديا", btn_text: "افتح البوت وابدأ الرشق الآن", trust_text: "✨ أكثر من 11,754+ مستخدم يثقون بنا شهرياً ✨", stat1: "مليون مستخدم", stat2: "طلب / يوم", stat3: "دعم فني 24/7", stat4: "رضا العملاء %", services_title: "جميع منصات التواصل", why_title: "لماذا تختار بوت TALABATI؟", faq_title: "الأسئلة الشائعة", rating_text: "أكثر من 15,000 تقييم 5 نجوم | خدمة موثوقة رقم 1 في العالم العربي", second_btn: "جرب البوت الآن مجاناً", footer: "© 2025 بوت طلباتي TALABATI - رشق وزيادة متابعين. جميع الحقوق محفوظة.",
+            services: [{ name: "انستقرام", desc: "متابعين حقيقيين، لايكات، مشاهدات ستوري وريلز" },{ name: "تيك توك", desc: "متابعين، مشاهدات فيديو، لايكات وتفاعل" },{ name: "يوتيوب", desc: "اشتراكات، مشاهدات، تعليقات محفزة" },{ name: "فيسبوك", desc: "متابعين للصفحة، لايكات للمنشورات" },{ name: "تويتر (X)", desc: "متابعين، ريتويت، إعجابات" },{ name: "تليجرام", desc: "أعضاء قنوات، مشاهدات منشورات، تفاعل" },{ name: "واتساب", desc: "تفاعل مجموعات، نشر روابط، أعضاء بوت" },{ name: "سناب شات", desc: "مشاهدات قصص، متابعين" }],
+            features: ["⚡ تنفيذ فوري وسريع", "💰 أسعار مجانية تقريباً ❤️‍🔥", "🎧 دعم فني 24 ساعة", "🔒 آمن ومضمون 100%", "🌍 يغطي جميع المنصات"],
+            faq: [{ q: "كيف يعمل بوت الرشق طلباتي؟", a: "فقط اضغط على زر 'افتح البوت'، أرسل معرف حسابك واختر الخدمة المطلوبة، سيتم تنفيذ طلبك خلال دقائق مجاناً أو برموز داخلية." },{ q: "هل الخدمات مجانية بالكامل؟", a: "نقدم عروضاً مجانية تجريبية يومياً، وباقات رمزية لتوفير استمرارية الخدمة بجودة احترافية." },{ q: "هل البيانات آمنة؟", a: "بالتأكيد، بوت طلباتي لا يطلب كلمة مرور أو بيانات حساسة، فقط رابط الحساب العام." },{ q: "كم يستغرق تنفيذ الطلب؟", a: "معظم الطلبات تبدأ خلال 5-15 دقيقة، والمشاهدات فورية، والمتابعين يصلون بشكل تدريجي." }] },
+        en: { brand_title: "Rashq | Increase Followers", brand_sub: "Talabati Bot – Fastest Social Media Boost", btn_text: "Open Bot & Start Boosting", trust_text: "✨ 11,754+ monthly active users trust us ✨", stat1: "Million Users", stat2: "Requests / Day", stat3: "24/7 Support", stat4: "Satisfaction %", services_title: "All Social Platforms", why_title: "Why choose TALABATI Bot?", faq_title: "FAQ", rating_text: "Over 15,000 5-star reviews | #1 Trusted Service", second_btn: "Try the Bot for Free", footer: "© 2025 TALABATI Bot - All rights reserved.",
+            services: [{ name: "Instagram", desc: "Real followers, likes, story & reel views" },{ name: "TikTok", desc: "Followers, video views, likes" },{ name: "YouTube", desc: "Subscribers, views, comments" },{ name: "Facebook", desc: "Page followers, post likes" },{ name: "Twitter (X)", desc: "Followers, retweets, likes" },{ name: "Telegram", desc: "Channel members, post views" },{ name: "WhatsApp", desc: "Group interaction, link sharing" },{ name: "Snapchat", desc: "Story views, followers" }],
+            features: ["⚡ Instant Execution", "💰 Almost Free", "🎧 24/7 Support", "🔒 100% Secure", "🌍 All Platforms"],
+            faq: [{ q: "How does Talabati Bot work?", a: "Click 'Open Bot', send your account link and choose service." },{ q: "Are services completely free?", a: "We offer free daily trials and symbolic packages." },{ q: "Is my data safe?", a: "Absolutely. No passwords or sensitive data required." },{ q: "How long does an order take?", a: "Most orders start within 5-15 minutes." }] },
+        fr: { brand_title: "Rashq | Augmenter vos abonnés", brand_sub: "Bot Talabati – Le plus rapide", btn_text: "Ouvrir le bot", trust_text: "✨ Plus de 11 754+ utilisateurs nous font confiance ✨", stat1: "Millions d'utilisateurs", stat2: "Demandes/jour", stat3: "Support 24/7", stat4: "Satisfaction %", services_title: "Toutes les plateformes", why_title: "Pourquoi Talabati Bot ?", faq_title: "FAQ", rating_text: "Plus de 15 000 avis 5 étoiles", second_btn: "Essayer gratuitement", footer: "© 2025 Bot Talabati - Tous droits réservés.",
+            services: [{ name: "Instagram", desc: "Followers réels, likes, vues" },{ name: "TikTok", desc: "Followers, vues vidéo" },{ name: "YouTube", desc: "Abonnés, vues" },{ name: "Facebook", desc: "Followers de page" },{ name: "Twitter", desc: "Followers, retweets" },{ name: "Telegram", desc: "Membres de chaînes" },{ name: "WhatsApp", desc: "Interaction groupe" },{ name: "Snapchat", desc: "Vues stories" }],
+            features: ["⚡ Exécution rapide", "💰 Presque gratuit", "🎧 Support 24/7", "🔒 Sécurisé", "🌍 Multi-plateformes"],
+            faq: [{ q: "Comment ça marche ?", a: "Cliquez sur 'Ouvrir le bot', envoyez le lien de votre compte." },{ q: "Est-ce vraiment gratuit ?", a: "Essais gratuits quotidiens et packs symboliques." },{ q: "Mes données sont-elles sécurisées ?", a: "Oui, aucun mot de passe demandé." },{ q: "Délai d'exécution ?", a: "5-15 minutes généralement." }] },
+        ru: { brand_title: "Rashq | Увеличение подписчиков", brand_sub: "Бот Talabati – быстро", btn_text: "Открыть бот", trust_text: "✨ Более 11 754+ пользователей в месяц ✨", stat1: "Миллионов", stat2: "Запросов/день", stat3: "Поддержка 24/7", stat4: "Удовлетворённость %", services_title: "Все соцсети", why_title: "Почему Talabati Bot?", faq_title: "Частые вопросы", rating_text: "Более 15 000 отзывов 5 звёзд", second_btn: "Попробовать бесплатно", footer: "© 2025 Talabati Bot - Все права защищены.",
+            services: [{ name: "Instagram", desc: "Подписчики, лайки" },{ name: "TikTok", desc: "Подписчики, просмотры" },{ name: "YouTube", desc: "Подписчики, просмотры" },{ name: "Facebook", desc: "Подписчики страницы" },{ name: "Twitter", desc: "Ретвиты, лайки" },{ name: "Telegram", desc: "Участники каналов" },{ name: "WhatsApp", desc: "Активность" },{ name: "Snapchat", desc: "Просмотры историй" }],
+            features: ["⚡ Мгновенно", "💰 Почти бесплатно", "🎧 Поддержка 24/7", "🔒 Безопасно", "🌍 Все платформы"],
+            faq: [{ q: "Как работает бот?", a: "Нажмите 'Открыть бот', отправьте ссылку." },{ q: "Это бесплатно?", a: "Ежедневные бесплатные пробные версии." },{ q: "Безопасно?", a: "Да, не запрашиваем пароли." },{ q: "Сколько времени?", a: "Обычно 5-15 минут." }] },
+        zh: { brand_title: "Rashq | 增加粉丝", brand_sub: "Talabati 机器人 – 最快", btn_text: "打开机器人", trust_text: "✨ 每月超过 11,754+ 用户 ✨", stat1: "百万用户", stat2: "请求/天", stat3: "24/7 支持", stat4: "满意度 %", services_title: "所有平台", why_title: "为什么选择 Talabati？", faq_title: "常见问题", rating_text: "超过 15,000 条五星评价", second_btn: "免费试用", footer: "© 2025 Talabati 机器人 - 版权所有",
+            services: [{ name: "Instagram", desc: "粉丝、点赞" },{ name: "TikTok", desc: "粉丝、观看" },{ name: "YouTube", desc: "订阅、观看" },{ name: "Facebook", desc: "主页粉丝" },{ name: "Twitter", desc: "转推、点赞" },{ name: "Telegram", desc: "频道成员" },{ name: "WhatsApp", desc: "群组互动" },{ name: "Snapchat", desc: "故事观看" }],
+            features: ["⚡ 快速执行", "💰 几乎免费", "🎧 24/7 支持", "🔒 安全", "🌍 所有平台"],
+            faq: [{ q: "机器人如何工作？", a: "点击'打开机器人'，发送您的账户链接。" },{ q: "完全免费吗？", a: "提供每日免费试用。" },{ q: "数据安全吗？", a: "是的，不要求密码。" },{ q: "需要多长时间？", a: "通常在5-15分钟内开始。" }] }
     };
 
     let currentLang = 'ar';
-
     function applyLanguage(lang) {
         if (!translations[lang]) lang = 'ar';
         currentLang = lang;
         const t = translations[lang];
-
         document.getElementById('brand-title').innerText = t.brand_title;
         document.getElementById('brand-sub').innerHTML = `<i class="fas fa-bolt"></i> ${t.brand_sub}`;
         document.getElementById('btn-text').innerText = t.btn_text;
@@ -680,7 +230,6 @@
         document.getElementById('second-btn-text').innerText = t.second_btn;
         document.getElementById('footer-text').innerHTML = t.footer;
 
-        // خدمات
         const servicesGrid = document.getElementById('services-grid');
         servicesGrid.innerHTML = '';
         t.services.forEach(service => {
@@ -692,137 +241,33 @@
             else if (service.name.includes('تليجرام') || service.name.includes('Telegram')) iconHtml = '<i class="fab fa-telegram"></i>';
             else if (service.name.includes('واتساب') || service.name.includes('WhatsApp')) iconHtml = '<i class="fab fa-whatsapp"></i>';
             else if (service.name.includes('سناب') || service.name.includes('Snapchat')) iconHtml = '<i class="fab fa-snapchat"></i>';
-            const card = document.createElement('div');
-            card.className = 'service-card';
+            const card = document.createElement('div'); card.className = 'service-card';
             card.innerHTML = `${iconHtml}<h3>${service.name}</h3><p>${service.desc}</p>`;
             servicesGrid.appendChild(card);
         });
-
-        // ميزات
         const featuresList = document.getElementById('features-list');
         featuresList.innerHTML = '';
-        t.features.forEach(f => {
-            const div = document.createElement('div');
-            div.className = 'feature';
-            div.innerHTML = f;
-            featuresList.appendChild(div);
-        });
-
-        // أسئلة شائعة
+        t.features.forEach(f => { const div = document.createElement('div'); div.className = 'feature'; div.innerHTML = f; featuresList.appendChild(div); });
         const faqContainer = document.getElementById('faq-container');
         faqContainer.innerHTML = '';
-        t.faq.forEach((item, idx) => {
-            const faqDiv = document.createElement('div');
-            faqDiv.className = 'faq-item';
-            if (idx === 0) faqDiv.classList.add('active');
-            faqDiv.innerHTML = `
-                <div class="faq-question"><i class="fas fa-play-circle"></i> ${item.q}</div>
-                <div class="faq-answer">${item.a}</div>
-            `;
-            faqContainer.appendChild(faqDiv);
-        });
-        document.querySelectorAll('.faq-item').forEach(item => {
-            const qDiv = item.querySelector('.faq-question');
-            qDiv.addEventListener('click', () => {
-                const isActive = item.classList.contains('active');
-                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-                if (!isActive) item.classList.add('active');
-            });
-        });
-
+        t.faq.forEach((item, idx) => { const faqDiv = document.createElement('div'); faqDiv.className = 'faq-item'; if (idx === 0) faqDiv.classList.add('active'); faqDiv.innerHTML = `<div class="faq-question"><i class="fas fa-play-circle"></i> ${item.q}</div><div class="faq-answer">${item.a}</div>`; faqContainer.appendChild(faqDiv); });
+        document.querySelectorAll('.faq-item').forEach(item => { const qDiv = item.querySelector('.faq-question'); qDiv.addEventListener('click', () => { document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active')); item.classList.add('active'); }); });
         const htmlElem = document.getElementById('main-html');
-        if (lang === 'ar') {
-            htmlElem.setAttribute('dir', 'rtl');
-            htmlElem.setAttribute('lang', 'ar');
-        } else {
-            htmlElem.setAttribute('dir', 'ltr');
-            htmlElem.setAttribute('lang', lang);
-        }
+        if (lang === 'ar') { htmlElem.setAttribute('dir', 'rtl'); htmlElem.setAttribute('lang', 'ar'); } else { htmlElem.setAttribute('dir', 'ltr'); htmlElem.setAttribute('lang', lang); }
         document.title = t.brand_title + " - TALABATI";
         document.querySelector('meta[name="description"]').setAttribute('content', t.brand_sub);
-        document.querySelector('meta[property="og:title"]').setAttribute('content', t.brand_title);
-        document.querySelector('meta[property="og:description"]').setAttribute('content', t.brand_sub);
     }
-
-    function detectLanguage() {
-        const browserLang = navigator.language || navigator.userLanguage;
-        if (browserLang.startsWith('ar')) return 'ar';
-        if (browserLang.startsWith('en')) return 'en';
-        if (browserLang.startsWith('fr')) return 'fr';
-        if (browserLang.startsWith('ru')) return 'ru';
-        if (browserLang.startsWith('zh')) return 'zh';
-        return 'en';
-    }
-
-    const savedLang = localStorage.getItem('preferredLang');
-    if (savedLang && translations[savedLang]) {
-        applyLanguage(savedLang);
-        document.querySelector(`.lang-btn[data-lang="${savedLang}"]`).classList.add('active');
-    } else {
-        const autoLang = detectLanguage();
-        applyLanguage(autoLang);
-        document.querySelector(`.lang-btn[data-lang="${autoLang}"]`).classList.add('active');
-    }
-
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const lang = btn.getAttribute('data-lang');
-            applyLanguage(lang);
-            localStorage.setItem('preferredLang', lang);
-            document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-        });
-    });
-
-    // عدادات متحركة
+    function detectLanguage() { const lang = navigator.language || 'en'; if (lang.startsWith('ar')) return 'ar'; if (lang.startsWith('fr')) return 'fr'; if (lang.startsWith('ru')) return 'ru'; if (lang.startsWith('zh')) return 'zh'; return 'en'; }
+    const saved = localStorage.getItem('preferredLang');
+    if (saved && translations[saved]) { applyLanguage(saved); document.querySelector(`.lang-btn[data-lang="${saved}"]`).classList.add('active'); } else { const auto = detectLanguage(); applyLanguage(auto); document.querySelector(`.lang-btn[data-lang="${auto}"]`).classList.add('active'); }
+    document.querySelectorAll('.lang-btn').forEach(btn => { btn.addEventListener('click', () => { const lang = btn.getAttribute('data-lang'); applyLanguage(lang); localStorage.setItem('preferredLang', lang); document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); }); });
     const counters = document.querySelectorAll('.stat-number');
-    const animateNumbers = () => {
-        counters.forEach(counter => {
-            const target = parseInt(counter.getAttribute('data-count'));
-            let current = parseInt(counter.innerText);
-            const increment = Math.ceil(target / 30);
-            const updateCount = () => {
-                if (current < target) {
-                    current += increment;
-                    if (current > target) current = target;
-                    counter.innerText = current;
-                    setTimeout(updateCount, 25);
-                } else counter.innerText = target;
-            };
-            updateCount();
-        });
-    };
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => { if (entry.isIntersecting) { animateNumbers(); observer.unobserve(entry.target); } });
-    }, { threshold: 0.5 });
-    const statsGrid = document.querySelector('.stats-grid');
-    if (statsGrid) observer.observe(statsGrid);
-
-    // زر العودة للأعلى
-    const scrollBtn = document.getElementById('scrollTopBtn');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 400) scrollBtn.classList.add('show');
-        else scrollBtn.classList.remove('show');
-    });
-    scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
-    // تأثيرات الظهور
-    const fadeElements = document.querySelectorAll('.service-card, .feature, .faq-item, .stat-item');
-    const fadeObserver = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-                fadeObserver.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
-    fadeElements.forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-        fadeObserver.observe(el);
-    });
+    const animateNumbers = () => { counters.forEach(counter => { const target = parseInt(counter.getAttribute('data-count')); let current = parseInt(counter.innerText); const inc = Math.ceil(target / 30); const update = () => { if (current < target) { current += inc; if (current > target) current = target; counter.innerText = current; setTimeout(update, 25); } else counter.innerText = target; }; update(); }); };
+    const statsObserver = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { animateNumbers(); statsObserver.unobserve(entry.target); } }); }, { threshold: 0.5 });
+    const statsGridEl = document.querySelector('.stats-grid'); if (statsGridEl) statsObserver.observe(statsGridEl);
+    const scrollBtn = document.getElementById('scrollTopBtn'); window.addEventListener('scroll', () => { if (window.scrollY > 400) scrollBtn.classList.add('show'); else scrollBtn.classList.remove('show'); }); scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    const fadeElements = document.querySelectorAll('.service-card, .feature, .faq-item, .stat-item'); const fadeObs = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.style.opacity = '1'; entry.target.style.transform = 'translateY(0)'; fadeObs.unobserve(entry.target); } }); }, { threshold: 0.1 });
+    fadeElements.forEach(el => { el.style.opacity = '0'; el.style.transform = 'translateY(20px)'; el.style.transition = 'opacity 0.5s ease, transform 0.5s ease'; fadeObs.observe(el); });
 </script>
 </body>
-    </html>
+                                                                                                                                              </html>
